@@ -16,7 +16,13 @@ const DashboardLayout = async ({ children }) => {
         <DashboardNavbar />
 
         {/* Main Content */}
-        <main className="flex-1 overflow-y-auto bg-[#0f172a] p-4 md:p-6">
+        <main
+          style={{
+            background:
+              "linear-gradient(118.53deg, #020618 -34.38%, #162456 54.59%, #0F172B 143.57%)",
+          }}
+          className="flex-1 overflow-y-auto p-4 md:p-6"
+        >
           {children}
         </main>
       </div>

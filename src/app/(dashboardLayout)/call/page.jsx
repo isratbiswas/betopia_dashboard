@@ -1,7 +1,9 @@
+import CallLogs from "@/components/modules/Dashboard/Call/CallLogs";
+
 const page = () => {
   return (
     <div>
-      <h1>Call Back</h1>
+      <CallLogs />
     </div>
   );
 };

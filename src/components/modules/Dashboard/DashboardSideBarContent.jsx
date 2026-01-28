@@ -19,7 +19,7 @@ const DashboardSideBarContent = ({ navItems }) => {
   };
 
   return (
-    <aside className="flex flex-col h-screen w-64 bg-[#081028] border-r border-white/5 text-slate-300">
+    <aside className="flex flex-col h-screen w-64 bg-[#111B3C] border-r border-white/5 text-slate-300">
       {/* Logo Section */}
       <div className="flex items-center justify-center py-8">
         <div className="relative group">

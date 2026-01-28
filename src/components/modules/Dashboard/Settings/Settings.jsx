@@ -6,7 +6,7 @@ import React from "react";
 
 const Settings = () => {
   return (
-    <div className="min-h-screen bg-[#0f172a] text-white p-8">
+    <div className="min-h-screen  text-white p-8">
       {/* Tabs Header */}
       <div className="flex gap-10 border-b border-white/10 mb-8 pb-4">
         <button className="text-lg font-medium text-white border-b-2 border-blue-500 pb-4 -mb-[18px]">

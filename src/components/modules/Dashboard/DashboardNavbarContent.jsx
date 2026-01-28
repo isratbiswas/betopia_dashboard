@@ -7,7 +7,7 @@ const DashboardNavbarContent = ({ navItems }) => {
   const pathname = usePathname();
   const activeItem = navItems[0]?.items.find((item) => item.href === pathname);
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-[#081028] shadow-sm">
+    <header className="sticky top-0 z-50 w-full border-b bg-[#111B3C] shadow-sm">
       <div className="flex items-center justify-between h-20 px-6 md:px-8">
         {/* Left: Page Title */}
         <h1 className="text-white text-2xl font-semibold tracking-tight">
