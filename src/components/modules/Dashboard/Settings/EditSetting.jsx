@@ -76,7 +76,7 @@ const EditSetting = () => {
 
         {/*  Action Button */}
         <div className="mt-16 flex justify-center w-full max-w-5xl">
-          <button className="w-full md:w-80 bg-[#00c853] hover:bg-[#00a846] text-white font-bold py-4 rounded-xl shadow-[0_0_20px_rgba(0,200,83,0.3)] transition-all">
+          <button className="w-full md:w-80 bg-[#00c853] hover:bg-[#00a846] text-white font-bold py-3 rounded-xl shadow-[0_0_20px_rgba(0,200,83,0.3)] transition-all">
             Save
           </button>
         </div>
