@@ -1,19 +1,17 @@
-import { BellIcon } from "lucide-react";
+"use client";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import React from "react";
-
+import { BellIcon } from "lucide-react";
 const DashboardNavbarContent = ({ navItems }) => {
+  const pathname = usePathname();
+  const activeItem = navItems[0]?.items.find((item) => item.href === pathname);
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-[#081028] shadow-sm">
       <div className="flex items-center justify-between h-20 px-6 md:px-8">
         {/* Left: Page Title */}
         <h1 className="text-white text-2xl font-semibold tracking-tight">
-          {/* <h3>
-            {navItems[0]?.items((item, index) => (
-              <h3 key={index}>{item.title}</h3>
-            ))}
-          </h3> */}
-          <h3>Overview</h3>
+          {activeItem?.title || "Dashboard"}
         </h1>
 
         {/* Right: Icons & Profile */}
