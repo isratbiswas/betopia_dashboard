@@ -7,7 +7,6 @@ import React from "react";
 const Settings = () => {
   return (
     <div className="min-h-screen  text-white p-8">
-      {/* Tabs Header */}
       <div className="flex gap-10 border-b border-white/10 mb-8 pb-4">
         <button className="text-lg font-medium text-white border-b-2 border-blue-500 pb-4 -mb-[18px]">
           Profile
@@ -22,10 +21,14 @@ const Settings = () => {
           Profile Image
         </h3>
 
-        {/*  Profile Image & Edit Button */}
         <div className="flex items-center gap-6 mb-12">
-          <div className="relative w-24 h-24 rounded-full overflow-hidden border-2 border-blue-500/30">
-            <Image src="/nav.jpg" fill alt="Profile" className="object-cover" />
+          <div className="relative w-24 h-24 rounded-full overflow-hidden ">
+            <Image
+              src="/avatar.png"
+              fill
+              alt="Profile"
+              className="object-cover"
+            />
           </div>
           <button className="px-6 py-2 rounded-full border border-blue-400/50 bg-blue-500/10 text-xs font-semibold shadow-[0_0_15px_rgba(59,130,246,0.3)] hover:bg-blue-500/20 transition-all">
             <Link href="/editProfile">Edit Profile</Link>
