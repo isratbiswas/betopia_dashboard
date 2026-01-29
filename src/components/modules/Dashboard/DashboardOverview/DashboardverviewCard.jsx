@@ -42,7 +42,6 @@ const DashboardOverviewCard = () => {
       trendUp: false,
       icon: <PhoneOff size={20} className="text-white" />,
       iconBg: "bg-rose-500",
-      active: true, // This card has the light blue border in your image
     },
     {
       title: "Avg Call Duration",
@@ -55,15 +54,11 @@ const DashboardOverviewCard = () => {
   ];
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6 w-full">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6 w-full">
       {stats.map((stat, index) => (
         <div
           key={index}
-          className={`relative p-6 rounded-2xl bg-[#111827] border-2 transition-all hover:scale-[1.02] ${
-            stat.active
-              ? "border-slate-500 shadow-lg shadow-blue-900/20"
-              : "border-slate-800/50"
-          }`}
+          className={`relative p-6 rounded-2xl bg-[#111827] border-1 border-blue-800/30 transition-all hover:scale-[1.02] shadow-lg `}
         >
           <div className="flex justify-between items-start">
             <div className="space-y-4">
@@ -80,7 +75,6 @@ const DashboardOverviewCard = () => {
               </div>
             </div>
 
-            {/* Icon Container */}
             <div className={`p-3 rounded-xl shadow-lg ${stat.iconBg}`}>
               {stat.icon}
             </div>

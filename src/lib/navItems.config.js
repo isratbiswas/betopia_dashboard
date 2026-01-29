@@ -4,7 +4,7 @@ export const getCommonNavItems = () => {
       items: [
         {
           title: "Dashboard",
-          href: "/dashboard",
+          href: "/",
           // icon: Home,
         },
         {

@@ -1,5 +1,6 @@
 import DashboardNavbar from "@/components/modules/Dashboard/DashboardNavbar";
 import DashboardSideBar from "@/components/modules/Dashboard/DashboardSideBar";
+import DashboardPage from "./dashboard/page";
 
 const DashboardLayout = async ({ children }) => {
   return (
@@ -23,7 +24,7 @@ const DashboardLayout = async ({ children }) => {
           }}
           className="flex-1 overflow-y-auto p-4 md:p-6"
         >
-          {children}
+          {children} : <DashboardPage />
         </main>
       </div>
     </div>
