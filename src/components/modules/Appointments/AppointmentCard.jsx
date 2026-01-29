@@ -1,4 +1,3 @@
-import React from "react";
 import { Calendar, CheckCircle2, AlertCircle } from "lucide-react";
 
 const AppointmentCard = () => {
@@ -27,7 +26,7 @@ const AppointmentCard = () => {
   ];
 
   return (
-    <div className="flex flex-wrap gap-6 p-6 ">
+    <div className="flex flex-wrap gap-6 p-2 ">
       {stats.map((stat, index) => (
         <div
           key={index}
@@ -40,7 +39,7 @@ const AppointmentCard = () => {
           </div>
 
           <div className="space-y-1">
-            <h3 className="text-4xl font-semibold text-white tracking-tight">
+            <h3 className="text-3xl font-thin text-white tracking-tight">
               {stat.value}
             </h3>
             <p className={`text-sm font-medium ${stat.subtextColor}`}>

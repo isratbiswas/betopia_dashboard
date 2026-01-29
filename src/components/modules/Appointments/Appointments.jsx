@@ -3,11 +3,11 @@ import AppointmentCard from "./AppointmentCard";
 import AppointmentTable from "./AppointmentTable";
 import AppointmentPagination from "./AppointmentPegination";
 
-const Appointments = () => {
+const Appointments = ({ data }) => {
   return (
     <div className="min-h-screen ">
       <AppointmentCard />
-      <AppointmentTable />
+      <AppointmentTable data={data} />
       <AppointmentPagination />
     </div>
   );

@@ -1,10 +1,10 @@
-import Appointments from "@/components/modules/Dashboard/Appointments/Appointments";
-import React from "react";
+import Appointments from "@/components/modules/Appointments/Appointments";
+import dashboardData from "@/data/dashboard.json";
 
 const AppointmentPage = () => {
   return (
     <div>
-      <Appointments />
+      <Appointments data={dashboardData} />
     </div>
   );
 };

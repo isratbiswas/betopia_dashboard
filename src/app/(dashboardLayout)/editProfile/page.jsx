@@ -1,5 +1,4 @@
-import EditSetting from "@/components/modules/Dashboard/Settings/EditSetting";
-import React from "react";
+import EditSetting from "@/components/modules/Settings/EditSetting";
 
 const EditProfile = () => {
   return (

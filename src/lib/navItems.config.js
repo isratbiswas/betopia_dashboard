@@ -3,24 +3,20 @@ export const getCommonNavItems = () => {
     {
       items: [
         {
-          title: "Dashboard",
+          title: "Dashboard Overview ",
           href: "/",
-          // icon: Home,
         },
         {
           title: "Call Logs",
           href: "/call",
-          // icon: Phone,
         },
         {
           title: "Appointments",
           href: "/appointment",
-          // icon: Calender,
         },
         {
           title: "Settings",
           href: "/setting",
-          // icon: Settings,
         },
       ],
     },

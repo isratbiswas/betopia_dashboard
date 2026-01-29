@@ -1,10 +1,10 @@
-import Settings from "@/components/modules/Dashboard/Settings/Settings";
-import React from "react";
+import Settings from "@/components/modules/Settings/Settings";
+import data from "@/data/dashboard.json";
 
-const page = () => {
+const page = async () => {
   return (
     <div className="">
-      <Settings />
+      <Settings data={data} />
     </div>
   );
 };

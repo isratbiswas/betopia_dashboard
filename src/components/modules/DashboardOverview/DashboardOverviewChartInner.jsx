@@ -21,8 +21,7 @@ const data = [
 
 const DashboardOverviewChart = () => {
   return (
-    <div className="bg-[#0b1426] rounded-md p-6 rounded-xl font-sans text-white border-1 border-blue-800/30">
-      {/* Header Section */}
+    <div className="bg-[#0b1426] rounded-md p-6 mt-6 rounded-xl font-sans text-white border-1 border-blue-800/30">
       <div
         style={{
           display: "flex",
@@ -53,7 +52,6 @@ const DashboardOverviewChart = () => {
         </select>
       </div>
 
-      {/* Chart Section */}
       <div style={{ width: "100%", height: 300 }}>
         <ResponsiveContainer width="100%" height="100%">
           <AreaChart

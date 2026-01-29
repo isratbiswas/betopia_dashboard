@@ -1,9 +1,10 @@
-import DashboardOverview from "@/components/modules/Dashboard/DashboardOverview/DashboardOverview";
+import DashboardOverview from "@/components/modules/DashboardOverview/DashboardOverview";
+import dashboardData from "@/data/dashboard.json";
 
 const DashboardPage = () => {
   return (
     <div className="">
-      <DashboardOverview />
+      <DashboardOverview data={dashboardData} />
     </div>
   );
 };

@@ -1,9 +1,10 @@
-import CallLogs from "@/components/modules/Dashboard/Call/CallLogs";
+import CallLogs from "@/components/modules/Call/CallLogs";
+import data from "@/data/dashboard.json";
 
-const page = () => {
+const page = async () => {
   return (
     <div>
-      <CallLogs />
+      <CallLogs data={data} />
     </div>
   );
 };

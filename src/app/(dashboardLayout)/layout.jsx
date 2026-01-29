@@ -1,21 +1,17 @@
-import DashboardNavbar from "@/components/modules/Dashboard/DashboardNavbar";
-import DashboardSideBar from "@/components/modules/Dashboard/DashboardSideBar";
+import DashboardNavbar from "@/components/modules/Shared/DashboardNavbar";
+import DashboardSideBar from "@/components/modules/Shared/DashboardSideBar";
 import DashboardPage from "./dashboard/page";
 
 const DashboardLayout = async ({ children }) => {
   return (
     <div className="flex h-screen overflow-hidden">
-      {/* Left Sidebar */}
+      {/*  Sidebar */}
       <aside className="hidden md:flex w-64 flex-col border-r bg-card">
         <DashboardSideBar />
       </aside>
-
-      {/* Right / Main Area */}
       <div className="flex flex-1 flex-col overflow-hidden">
-        {/* Top Navbar */}
-
+        {/*  Navbar */}
         <DashboardNavbar />
-
         {/* Main Content */}
         <main
           style={{
@@ -24,7 +20,7 @@ const DashboardLayout = async ({ children }) => {
           }}
           className="flex-1 overflow-y-auto p-4 md:p-6"
         >
-          {children} : <DashboardPage />
+          {children ? children : <DashboardPage />}
         </main>
       </div>
     </div>

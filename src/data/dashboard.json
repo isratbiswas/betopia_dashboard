@@ -1,0 +1,209 @@
+{
+  "stats": [
+    {
+      "label": "Total Calls Today",
+      "value": "127",
+      "trend": "+12%",
+      "trendTrue": true,
+      "icon": "PhoneCall",
+      "iconBg": "bg-gradient-to-br from-blue-500 to-cyan-400"
+    },
+    {
+      "label": "AI-Handled Calls",
+      "value": "98",
+      "trend": "+77%",
+      "trendTrue": true,
+      "icon": "Robot",
+      "iconBg": "bg-magenta-500 bg-gradient-to-br from-purple-500 to-pink-500"
+    },
+    {
+      "label": "Warm Transfer",
+      "value": "23",
+      "trend": "+18%",
+      "trendTrue": true,
+      "icon": "Transfer",
+      "iconBg": "bg-gradient-to-br from-orange-400 to-red-600"
+    },
+    {
+      "label": "Appointments Booked",
+      "value": "34",
+      "trend": "+8%",
+      "trendTrue": true,
+      "icon": "Calendar",
+      "iconBg": "bg-emerald-500"
+    },
+    {
+      "label": "Missed/Failed Calls",
+      "value": "6",
+      "trend": "-3%",
+      "trendTrue": false,
+      "icon": "Alert",
+      "iconBg": "bg-rose-500"
+    },
+    {
+      "label": "Avg Call Duration",
+      "value": "3:42",
+      "trend": "+15%",
+      "trendTrue": true,
+      "icon": "Clock",
+      "iconBg": "bg-indigo-600"
+    }
+  ],
+
+  "chartData": {
+    "total": 472,
+    "timeframe": "This Week",
+    "chartData": [
+      { "day": "Mon", "calls": 45 },
+      { "day": "Tue", "calls": 62 },
+      { "day": "Wed", "calls": 58 },
+      { "day": "Thu", "calls": 75 },
+      { "day": "Fri", "calls": 92 },
+      { "day": "Sat", "calls": 98 },
+      { "day": "Sun", "calls": 60 }
+    ]
+  },
+  "activities": [
+    {
+      "id": 1,
+      "text": "AI booked appointment for iPhone 13 screen repair",
+      "time": "2 min ago",
+      "status": "#10b981"
+    },
+    {
+      "id": 2,
+      "text": "Warm transfer to technician - Software issue",
+      "time": "5 min ago",
+      "status": "#f59e0b"
+    },
+    {
+      "id": 3,
+      "text": "Quote provided for iPad battery replacement",
+      "time": "8 min ago",
+      "status": "#10b981"
+    },
+    {
+      "id": 4,
+      "text": "Call dropped after 12 seconds",
+      "time": "15 min ago",
+      "status": "#ef4444"
+    }
+  ],
+
+  "user": {
+    "fullName": "Jane D.",
+    "email": "jane@gmail.com",
+    "storeName": "Ubreakfix Store",
+    "storeAddress": "123 Main Street, New York, NY 10001",
+    "profileImage": "/avatar.png"
+  },
+  "callList": [
+    {
+      "id": "c1",
+      "phoneNumber": "+1 (555) 345-6789",
+      "timestamp": "2025-12-16 • 09:42 AM",
+      "duration": "5:23",
+      "outcome": "Quote Provided",
+      "tag": "Screen",
+      "status": "AI Resolved"
+    },
+    {
+      "id": "c2",
+      "phoneNumber": "+1 (555) 345-6789",
+      "timestamp": "2025-12-16 • 08:42 AM",
+      "duration": "5:23",
+      "outcome": "Escalated to technician",
+      "tag": "Software",
+      "status": "Warm Transfer"
+    },
+    {
+      "id": "c3",
+      "phoneNumber": "+1 (555) 345-6789",
+      "timestamp": "2025-12-16 • 08:42 AM",
+      "duration": "5:23",
+      "outcome": "Appointment Booked",
+      "tag": "Battery",
+      "status": "Appointment"
+    },
+    {
+      "id": "c4",
+      "phoneNumber": "+1 (555) 345-6789",
+      "timestamp": "2025-12-16 • 08:42 AM",
+      "duration": "0:20",
+      "outcome": "Call Dropped",
+      "tag": "Unknown",
+      "status": "Dropped"
+    },
+    {
+      "id": "c5",
+      "phoneNumber": "+1 (555) 345-6789",
+      "timestamp": "2025-12-16 • 09:42 AM",
+      "duration": "5:23",
+      "outcome": "Quote Provided",
+      "tag": "Screen",
+      "status": "Dropped"
+    }
+  ],
+  "appointments": [
+    {
+      "name": "Jane.D",
+      "phone": "01960685765",
+      "mail": "admin@gmail.com",
+      "device": "Apple/Iphone 13pro",
+      "repair": "Screen",
+      "date": "02/06/2026",
+      "slot": "1",
+      "time": "09:00"
+    },
+    {
+      "name": "Jane.D",
+      "phone": "01960685765",
+      "mail": "admin@gmail.com",
+      "device": "Apple/Iphone 13pro",
+      "repair": "Screen",
+      "date": "02/06/2026",
+      "slot": "1",
+      "time": "10:00"
+    },
+    {
+      "name": "Jane.D",
+      "phone": "01960685765",
+      "mail": "admin@gmail.com",
+      "device": "Apple/Iphone 13pro",
+      "repair": "Screen",
+      "date": "02/06/2026",
+      "slot": "1",
+      "time": "11:00"
+    },
+    {
+      "name": "Jane.D",
+      "phone": "01960685765",
+      "mail": "admin@gmail.com",
+      "device": "Apple/Iphone 13pro",
+      "repair": "Screen",
+      "date": "02/06/2026",
+      "slot": "1",
+      "time": "12:00"
+    },
+    {
+      "name": "Jane.D",
+      "phone": "01960685765",
+      "mail": "admin@gmail.com",
+      "device": "Apple/Iphone 13pro",
+      "repair": "Screen",
+      "date": "02/06/2026",
+      "slot": "1",
+      "time": "02:00"
+    },
+    {
+      "name": "Jane.D",
+      "phone": "01960685765",
+      "mail": "admin@gmail.com",
+      "device": "Apple/Iphone 13pro",
+      "repair": "Screen",
+      "date": "02/06/2026",
+      "slot": "1",
+      "time": "03:00"
+    }
+  ]
+}
