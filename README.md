@@ -1,15 +1,15 @@
-Betopia Dashboard
+<h1 className="text-purple-600">Betopia Dashboard</h1>
 
 <hr/>
-Live Frontend Link : <a href="https://betopia-dashboard.vercel.app">Betopia Dashboad</a>
+<h4><b>Live Frontend Link :</b></h4>  <a href="https://betopia-dashboard.vercel.app">Betopia Dashboad</a>
 
-Frontend Repository Link: <a href="https://github.com/isratbiswas/betopia_dashboard">Frontend Repository</a>
+<h4><b>Frontend Repository Link:</b></h4> <a href="https://github.com/isratbiswas/betopia_dashboard">Frontend Repository</a>
 
 Project Overview
 
-Betopia Dashboard is a modern, responsive frontend application designed to provide users with a comprehensive overview of key metrics and activities in a visually intuitive manner. Built with Next.js and Tailwind CSS, the dashboard emphasizes performance , responsiveness and a clean user interface to enhance user experience.
+<p>Betopia Dashboard is a modern, responsive frontend application designed to provide users with a comprehensive overview of key metrics and activities in a visually intuitive manner. Built with Next.js and Tailwind CSS, the dashboard emphasizes performance , responsiveness and a clean user interface to enhance user experience.</p>
 
-<h1> Technology Stack</h1>
+<h2> Technology Stack</h2>
 <h3>Frontend</h3>
 <ul>
 <li>Framework & Language: Next.js , Javascript</li>
