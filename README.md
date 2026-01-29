@@ -44,6 +44,7 @@
 <h5>npm run dev</h5>
 
 <h2>Folder Structure</h2>
+```
 Frontend/
 ├── public/              # Static assets
 ├── src/
@@ -65,3 +66,4 @@ Frontend/
 ├── tailwind.config.js  # Tailwind CSS config
 ├── jsconfig.json       # Javascript config
 └── package.json        # Dependencies
+```
