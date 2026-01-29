@@ -45,25 +45,26 @@
 
 <h2>Folder Structure</h2>
 
-.
+```
 ├── Frontend/
-├── ├── public/ # Static assets
+├── ├── public/
 ├── ├── src/
-├── │ ├── app/ # Next.js App Router pages
-├── │ │ ├── (dashboardLayout)/
-├── │ │ │ └── (clientDashboardLayout)/ # dashboard
+├── │ ├── app/ 
+├── │ │ ├── (dashboardLayout)
+├── │ │ │ 
 ├── │ │ │  
-├── │ │ ├── layout.jsx # Root layout
-├── │ │ └── globals.css # Global styles
+├── │ │ ├── layout.jsx
+├── │ │ └── globals.css 
 ├── │ │  
 ├── │ │  
-├── │ ├── assets/ # Images, icons, SVGs
-├── │ ├── components/ # React components
-├── │ │ ├── modules/ # Feature-specific components
-├── │ │ ├── shared/ # Reusable components
+├── │ ├── assets/ 
+├── │ ├── components/ 
+├── │ │ ├── modules/ 
+├── │ │ ├── shared/ 
 ├── │ └── lib
-├── ├── .env # Environment variables
-├── ├── next.config.js # Next.js configuration
-├── ├── tailwind.config.js # Tailwind CSS config
-├── ├── jsconfig.json # Javascript config
-└── └── package.json # Dependencies
+├── ├── .env
+├── ├── next.config.js 
+├── ├── tailwind.config.js 
+├── ├── jsconfig.json 
+└── └── package.json
+```
