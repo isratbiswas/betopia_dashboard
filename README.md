@@ -1,8 +1,8 @@
 <h1>Betopia Dashboard</h1>
 
-<h4><b>Live Frontend Link :</b></h4> <a href="https://betopia-dashboard.vercel.app">Betopia Dashboad</a>
+<h4><b>Live Frontend Link:</b> <a href="https://betopia-dashboard.vercel.app">Betopia Dashboad</a></h4> 
 
-<h4><b>Frontend Repository Link:</b></h4> <a href="https://github.com/isratbiswas/betopia_dashboard">Frontend Repository</a>
+<h4><b>Frontend Repository Link:</b><a href="https://github.com/isratbiswas/betopia_dashboard">Frontend Repository</a></h4> 
 
 <h2>Project Overview</h2>
 
