@@ -44,26 +44,26 @@
 <h5>npm run dev</h5>
 
 <h2>Folder Structure</h2>
-```
-Frontend/
-├── public/              # Static assets
-├── src/
-│   ├── app/            # Next.js App Router pages
-│   │   ├── (dashboardLayout)/ 
-│   │   │    └── (clientDashboardLayout)/ #  dashboard
-│   │   │   
-│   │   ├── layout.jsx  # Root layout
-│   │   └── globals.css # Global styles
-│   │   
-│   │   
-│   ├── assets/         # Images, icons, SVGs
-│   ├── components/     # React components
-│   │   ├── modules/    # Feature-specific components
-│   │   ├── shared/     # Reusable components
-│   └──  lib 
-├── .env                # Environment variables
-├── next.config.js      # Next.js configuration
-├── tailwind.config.js  # Tailwind CSS config
-├── jsconfig.json       # Javascript config
-└── package.json        # Dependencies
-```
+
+.
+├── Frontend/
+├── ├── public/ # Static assets
+├── ├── src/
+├── │ ├── app/ # Next.js App Router pages
+├── │ │ ├── (dashboardLayout)/
+├── │ │ │ └── (clientDashboardLayout)/ # dashboard
+├── │ │ │  
+├── │ │ ├── layout.jsx # Root layout
+├── │ │ └── globals.css # Global styles
+├── │ │  
+├── │ │  
+├── │ ├── assets/ # Images, icons, SVGs
+├── │ ├── components/ # React components
+├── │ │ ├── modules/ # Feature-specific components
+├── │ │ ├── shared/ # Reusable components
+├── │ └── lib
+├── ├── .env # Environment variables
+├── ├── next.config.js # Next.js configuration
+├── ├── tailwind.config.js # Tailwind CSS config
+├── ├── jsconfig.json # Javascript config
+└── └── package.json # Dependencies
