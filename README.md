@@ -22,7 +22,7 @@
  <li>Frontend: Vercel</li>
  </ul>
 
-<h2>Project Features</h2>
+<h3>Project Features</h3>
 <ul>
  <li>Responsive Design: Optimized for both desktop and mobile devices using Tailwind CSS</li>
  <li>Modular Components: Structured with reusable React components for maintainability and scalability.</li>
@@ -40,7 +40,7 @@
 <h3>Install Dependencies</h3>
 <h5>npm install</h5>
 
-<h3>Run the Project</h2>
+<h3>Run the Project</h3>
 <h5>npm run dev</h5>
 
 <h2>Folder Structure</h2>
