@@ -2,7 +2,7 @@
 
 <h4><b>Live Frontend Link:</b>   <a href="https://betopia-dashboard.vercel.app">Betopia Dashboad</a></h4> 
 
-<h4><b>Frontend Repository Link:</b>  <a href="https://github.com/isratbiswas/betopia_dashboard">Frontend Repository</a></h4> 
+<h4><b>Frontend Repository Link:</b>   <a href="https://github.com/isratbiswas/betopia_dashboard">Frontend Repository</a></h4> 
 
 <h2>Project Overview</h2>
 
@@ -40,7 +40,7 @@
 <h3>Install Dependencies</h3>
 <h5>npm install</h5>
 
-<h2>Run the Project</h2>
+<h3>Run the Project</h2>
 <h5>npm run dev</h5>
 
 <h2>Folder Structure</h2>
